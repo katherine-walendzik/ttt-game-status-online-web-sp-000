@@ -24,8 +24,10 @@ end
 end
 
 def full?(board)
-  board.all? do |value|
-    if value == "X"|| value == "O"
+  if board.any? {|index| index == nil || index == " "}
+    return false
+  else
+    return true
   end
 end
 
