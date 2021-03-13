@@ -4,3 +4,23 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
+
+def won?
+  
+end
+
+def full?
+  
+end
+
+def draw?
+  
+end
+
+def over?
+  
+end
+
+def winner
+  
+end
