@@ -20,7 +20,7 @@ def won?(board)
     return win_combination
   end
 end
-    return FALSE
+    return false
 end
 
 def full?(board)
