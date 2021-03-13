@@ -24,7 +24,8 @@ end
 end
 
 def full?(board)
-  
+  board.all? do |value|
+    if value == "X"
 end
 
 def draw?(board)
